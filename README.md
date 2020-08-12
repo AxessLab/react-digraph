@@ -1,4 +1,4 @@
-# techformance-graph
+# react-digraph-techformance
 ![Demo](example.gif?raw=true)
 ## Overview
 
@@ -11,7 +11,7 @@ have been some necessary changes to improve the API, make the component faster, 
 ## Installation
 
 ```bash
-npm install --save techformance-graph
+npm install --save react-digraph-techformance
 ```
 
 If you don't have the following peerDependenies, make sure to install them:
@@ -40,7 +40,7 @@ import {
   type LayoutEngineType, // required to change the layoutEngineType, otherwise optional
   BwdlTransformer, // optional, Example JSON transformer
   GraphUtils // optional, useful utility functions
-} from 'techformance-graph';
+} from 'react-digraph-techformance';
 
 const GraphConfig =  {
   NodeTypes: {
