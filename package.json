@@ -1,5 +1,5 @@
 {
-  "name": "react-digraph",
+  "name": "techformance-graph",
   "description": "directed graph react component",
   "version": "7.0.0",
   "keywords": [
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber/react-digraph.git"
+    "url": "https://github.com/AxessLab/react-digraph"
   },
   "bugs": {
-    "url": "https://github.com/uber/react-digraph/issues/new",
-    "email": "antonb@uber.com"
+    "url": "https://github.com/AxessLab/react-digraph/issues/new",
+    "email": "hello@axesslab.com"
   },
   "engines": {
     "node": ">= 0.10.0"
