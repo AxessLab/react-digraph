@@ -586,7 +586,6 @@ class GraphView extends React.Component<IGraphViewProps, IGraphViewState> {
 
     switch (d.key) {
       case 'Delete':
-      case 'Backspace':
         if (selectedNodeObj) {
           this.handleDelete(selectedNodeObj.node || selected);
         }

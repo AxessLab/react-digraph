@@ -1,8 +1,8 @@
-# react-digraph
+# react-digraph-techformance
 ![Demo](example.gif?raw=true)
 ## Overview
 
-A React component which makes it easy to create a directed graph editor without implementing any of the SVG drawing or event handling logic.
+A React component which makes it easy to create a directed graph editor without implementing any of the SVG drawing or event handling logic. This is a fork from original [react-digraph](https://github.com/uber/react-digraph) created by Uber.
 
 ## Important v5.0.0 Information
 Version 5.0.0 is a breaking change to some of the API interfaces. Many of the component attributes are the same, and the data format is the same, but there
@@ -11,7 +11,7 @@ have been some necessary changes to improve the API, make the component faster, 
 ## Installation
 
 ```bash
-npm install --save react-digraph
+npm install --save react-digraph-techformance
 ```
 
 If you don't have the following peerDependenies, make sure to install them:
@@ -40,7 +40,7 @@ import {
   type LayoutEngineType, // required to change the layoutEngineType, otherwise optional
   BwdlTransformer, // optional, Example JSON transformer
   GraphUtils // optional, useful utility functions
-} from 'react-digraph';
+} from 'react-digraph-techformance';
 
 const GraphConfig =  {
   NodeTypes: {
