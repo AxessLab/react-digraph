@@ -87,6 +87,7 @@ $background-color: #f2f2f2;
     }
 
     &.selected {
+      fill: $primary-color;
       color: $primary-color;
       stroke: $primary-color;
 
