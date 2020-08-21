@@ -417,8 +417,8 @@ class Edge extends React.Component<IEdgeProps> {
 
   static calculateOffset(
     nodeSize: any,
-    src: any,
-    trg: any,
+    src: INode,
+    trg: INode,
     nodeKey: string,
     includesArrow?: boolean = true,
     viewWrapperElem: React.RefObject<HTMLDivElement>
@@ -442,7 +442,9 @@ class Edge extends React.Component<IEdgeProps> {
       return response;
     }
 
-    const trgNode = nodeElem.querySelector(`use[class*="node"]`);
+    const trgNode = nodeElem.querySelector(
+      'use[class*="node"], use[class*="jss"]'
+    );
 
     // the test for trgNode.getAttributeNS makes sure we really have a node and not some other type of object
     if (!trgNode || (trgNode && !trgNode.getAttributeNS)) {
